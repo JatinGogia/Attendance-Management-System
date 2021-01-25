@@ -1,4 +1,4 @@
-This process uses the java swing for frontend and MYSQl database for backend.
+This process uses the java swing for frontend and MYSQl  for backend.
 
 It is an attempt to digitalise the process of recording, storing and interpreting the 
 daily attendance. It records the daily attendance for each subject. Later you can 
