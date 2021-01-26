@@ -1,4 +1,4 @@
-package attendance;
+
 //LOGIN PAGE
 import java.awt.*;
 import java.awt.event.*;
