@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.*;
 import javax.swing.table.*;
 
-public class solve extends JFrame implements ActionListener {
+public class Timetable page extends JFrame implements ActionListener {
     public JTextField a6, a5, a7, a8, k9, k10, k11;
 
     public JButton a4, a11, b1, b10, b11, k6, k7, k8;
@@ -39,9 +39,23 @@ public class solve extends JFrame implements ActionListener {
 
 
     //CONSTRUCTOR
-    public solve() {
+    public Timetable page() {
 
         setLayout(null);
+    
+         JButton logout = new JButton("GO TO MENU");
+        logout.setBounds(1150, 20, 130, 20);
+
+        logout.addActionListener(new ActionListener() {
+
+
+            public void actionPerformed(ActionEvent e) {
+                setVisible(false);
+                Menu o = new Menu();
+
+            }
+        });
+
 
 
         Container c = getContentPane();
