@@ -1,5 +1,3 @@
-package attendance;
-
 
 import java.awt.*;
 import javax.swing.*;
