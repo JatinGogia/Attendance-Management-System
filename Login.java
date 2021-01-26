@@ -6,7 +6,7 @@ import java.sql.*;
 import javax.swing.*;
 
 
-public class test2 extends JFrame implements ActionListener {
+public class Login extends JFrame implements ActionListener {
 
     JButton b1;
     JButton b2;
@@ -16,7 +16,7 @@ public class test2 extends JFrame implements ActionListener {
     JTextField t2;
 
 
-    public test2() {
+    public Login() {
         setLayout(null);
         
         Font font = new Font("Arial", Font.BOLD, 40);
@@ -139,7 +139,7 @@ public class test2 extends JFrame implements ActionListener {
         if (e.getSource() == b2) //b2 for sign up
         {
             setVisible(false);
-            kun k = new kun();
+             Sign Up Page o= new Sign Up Page();
 
         }
     }
