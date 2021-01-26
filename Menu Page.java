@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 
-class button {
+class Menu Page {
       JFrame frame;
 
       JRadioButton jRadioButton1;
@@ -20,7 +20,7 @@ class button {
     JLabel L1;
 
 
-    public button() {
+    public Menu Page() {
          
          frame = new JFrame();
          frame.setLayout(null);
@@ -115,19 +115,19 @@ class button {
 
                 if (jRadioButton2.isSelected()) {
                     frame.setVisible(false);
-                    solve o = new solve();
+                    Timetable o = new Timetable();
                 }
 
 
                 if (jRadioButton3.isSelected()) {
                     frame.setVisible(false);
-                    next o = new next();
+                    checking Attendance o = Checking Attendance next();
                 }
 
 
                 if (jRadioButton5.isSelected()) {
                     frame.setVisible(false);
-                    Show_student o = new Show_student();
+                    Show Student details page o = new Show Student details page();
                 }
 
                 if (jRadioButton4.isSelected()) {
@@ -137,7 +137,7 @@ class button {
 
                 if (jRadioButton1.isSelected()) {
                     frame.setVisible(false);
-                    Lecture o = new Lecture();
+                    Showing Lectures details Page o = new Showing Lectures details Page();
                 }
 
 
