@@ -13,7 +13,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
 
-public class next extends JFrame {
+public class Checking Attendance extends JFrame {
     
     JTable table;
     DefaultTableModel tab1;
@@ -224,7 +224,7 @@ public class next extends JFrame {
 
             public void actionPerformed(ActionEvent e) {
                 setVisible(false);
-                button o = new button();
+                Menu o = new Menu();
 
             }
         });
