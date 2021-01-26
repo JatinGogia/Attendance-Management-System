@@ -4,7 +4,7 @@ import java.awt.event.*;
 import java.sql.*;
 import javax.swing.*;
 
-public class Show_student {
+public class Showing Student details page{
     
     private JFrame f;
     
@@ -16,7 +16,7 @@ public class Show_student {
     
     private JPanel data;
 
-    public Show_student() {
+    public Showing Student details page() {
         
         f = new JFrame("Search Student");
         f.setLayout(null);
@@ -79,12 +79,12 @@ public class Show_student {
 
         JButton logout = new JButton("GO TO MENU");
         logout.setBounds(1050, 50, 120, 20);
-        l
+        
         logout.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
                 f.setVisible(false);
-                button o = new button();
+                Menu o = new Menu();
 
             }
         });
