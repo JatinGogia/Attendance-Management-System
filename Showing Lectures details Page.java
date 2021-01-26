@@ -8,7 +8,7 @@ import javax.swing.table.*;
 import java.sql.*;
 
 
-public class Lecture {
+public class Showing Lectures details Page {
     
     private JComboBox sub;
     
@@ -26,7 +26,7 @@ public class Lecture {
     
     private JScrollPane jp;
     
-    public Lecture() {
+    public Showing Lectures details Page() {
         
         f = new JFrame("ShowRecord");
         JButton logout = new JButton("GO TO MENU");
@@ -37,7 +37,7 @@ public class Lecture {
             
             public void actionPerformed(ActionEvent e) {
                 f.setVisible(false);
-                button o = new button();
+                Menu o = new Menu();
 
             }
         });
@@ -50,9 +50,7 @@ public class Lecture {
         subject = new JLabel("Subject");
         subject.setHorizontalAlignment(JLabel.CENTER);
         subject.setBounds(50, 50, 100, 25);
-        f.add(subject)
-        
-        ;
+        f.add(subject);
         sub = new JComboBox();
         addSubject();
         
