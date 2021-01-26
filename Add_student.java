@@ -26,7 +26,7 @@ public class Add_student {
 
             public void actionPerformed(ActionEvent e) {
                 f.setVisible(false);
-                button o = new button();   
+                Menu o = new Menu();   
 
             }
         });
