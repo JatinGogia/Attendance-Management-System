@@ -123,7 +123,7 @@ public class Login extends JFrame implements ActionListener {
             if (value1.equals("Admin") && value2.equals("user")) {
                 JOptionPane.showMessageDialog(null, "register successfull !!");
                 setVisible(false);
-                button o = new button();
+                Menu o = new Menu();
 
 
             } else {
