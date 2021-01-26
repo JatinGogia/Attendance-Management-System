@@ -8,7 +8,7 @@ import java.sql.*;
 
 import javax.swing.*;
 
-public class kun extends JFrame implements ActionListener {
+public class Sign Up Page extends JFrame implements ActionListener {
     JButton b1;
     JLabel L3;
     JDialog d;
@@ -16,7 +16,7 @@ public class kun extends JFrame implements ActionListener {
     JTextField t2;
     
     
-    public kun() {
+    public Sign Up Page() {
         b1 = new JButton("Register");
         b1.addActionListener(this);
 
@@ -98,7 +98,7 @@ public class kun extends JFrame implements ActionListener {
         
         setVisible(false);
         
-        test2 o = new test2();
+        Login o = new Login();
 
 
     }
